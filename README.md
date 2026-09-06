@@ -7,7 +7,7 @@
 > names and arguments are unchanged, so switching is only a change of command:
 >
 > ```diff
-> - "command": "/path/to/eval"
+> - "command": "/path/to/eval-mcp"
 > + "command": "/path/to/common-mcp"
 > ```
 >
