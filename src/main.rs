@@ -1,16 +1,12 @@
 //! eval-mcp — run short scripts in many languages over MCP.
 
-mod args;
-mod policy;
-mod tools;
-
 use std::sync::Arc;
 
 use clap::Parser;
 use mcp_toolkit::ServerOptions;
 
-use policy::Policy;
-use tools::EvalTools;
+use eval_mcp::policy::Policy;
+use eval_mcp::tools::EvalTools;
 
 #[derive(Parser, Debug)]
 #[command(
