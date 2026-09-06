@@ -1,5 +1,21 @@
 # eval-mcp
 
+> ## ⚠️ Superseded by [common-mcp](https://github.com/Bluscream/common-mcp)
+>
+> These tools now live in **[common-mcp](https://github.com/Bluscream/common-mcp)**,
+> which serves them alongside the rest of the family from one process. The tool
+> names and arguments are unchanged, so switching is only a change of command:
+>
+> ```diff
+> - "command": "/path/to/eval"
+> + "command": "/path/to/common-mcp"
+> ```
+>
+> Beyond what this server did, common-mcp **preserves oversized output**: anything past the inline cap is streamed to a file and the result names it, instead of being discarded and forcing you to re-run a script that may have had side effects.
+>
+> This repository is archived and will not receive further changes. The release
+> below remains downloadable.
+
 Run short scripts in 30+ languages, as an MCP server.
 
 > **Rust rewrite.** This branch replaces the earlier JavaScript implementation,
